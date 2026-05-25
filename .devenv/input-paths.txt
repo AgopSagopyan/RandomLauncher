@@ -1,0 +1,10 @@
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/.devenv/bootstrap/bootstrapLib.nix
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/.devenv/bootstrap/default.nix
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/.devenv/bootstrap/resolve-lock.nix
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/devenv.local.nix
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/devenv.lock
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/devenv.nix
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/devenv.yaml
+/home/keremcem/.config/nixpkgs/overlays
+/home/keremcem/.config/nixpkgs/overlays.nix
+/home/keremcem/KEREM/AndroidProjects/LauncherApp/RandomLauncher/.env
