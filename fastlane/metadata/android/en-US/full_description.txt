@@ -1,0 +1,16 @@
+<p>RandomLauncher is a minimal home screen built to stop you from opening apps on autopilot. Every time you unlock your phone, the app drawer is reshuffled and <b>no app ever lands in the cell it had before</b>, so you have to actually look for what you want.</p>
+<p><b>Features</b></p>
+<ul>
+<li>Shuffle on every unlock, guaranteed to move every app</li>
+<li>Dock with 3, 4 or 5 slots for apps that should stay put</li>
+<li>Fixed gestures: swipe up for the drawer, down for notifications, left/right for assigned apps, double-tap to lock, tap the clock</li>
+<li>Per-app waiting screen: configurable delay, daily open and minute limits, growing delay past the limit, your own message</li>
+<li>Real usage per app with Usage Access (optional)</li>
+<li>Hide and rename apps, optional search (off by default), light/dark theme</li>
+<li>No internet permission, no tracking</li>
+</ul>
+<p><b>Permissions</b></p>
+<ul>
+<li>Usage Access (optional): today's open count and screen time per app, and more reliable unlock detection.</li>
+<li>Accessibility service (optional): used only to lock the screen on double-tap. It reads no screen content.</li>
+</ul>

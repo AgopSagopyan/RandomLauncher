@@ -1,0 +1,4 @@
+- Pull down at the top of the drawer to close it
+- Settings redesigned as a minimal text list
+- More reliable shuffle after screen off/on
+- Smoother drawer

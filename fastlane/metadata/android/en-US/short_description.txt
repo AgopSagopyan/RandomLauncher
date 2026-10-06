@@ -1,0 +1,1 @@
+Minimal launcher that reshuffles apps on every unlock to break muscle memory
