@@ -16,6 +16,7 @@ data class LauncherConfig(
     val hidden: Set<String> = emptySet(),
     val renames: Map<String, String> = emptyMap(),
     val showLabels: Boolean = true,
+    val grayscaleIcons: Boolean = false,
     val searchEnabled: Boolean = false,
     val swipeLeftApp: String? = null,
     val swipeRightApp: String? = null,
@@ -25,7 +26,7 @@ data class LauncherConfig(
     val friction: Map<String, FrictionRule> = emptyMap(),
 ) {
     companion object {
-        val DOCK_SLOT_OPTIONS = listOf(3, 4, 5)
+        val DOCK_SLOT_OPTIONS = listOf(1, 2, 3, 4, 5)
     }
 }
 

@@ -157,6 +157,7 @@ private fun Dock(
                     app = app,
                     label = state.label(app),
                     showLabel = state.config.showLabels,
+                    grayscale = state.config.grayscaleIcons,
                     labelStyle = OnWallpaper,
                     onClick = { vm.open(app) },
                     onLongClick = { onAppLongPress(app) },

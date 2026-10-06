@@ -2,11 +2,11 @@
 <p><b>Features</b></p>
 <ul>
 <li>Shuffle on every unlock, guaranteed to move every app</li>
-<li>Dock with 3, 4 or 5 slots for apps that should stay put</li>
+<li>Dock with 1 to 5 slots for apps that should stay put</li>
 <li>Fixed gestures: swipe up for the drawer, down for notifications, left/right for assigned apps, double-tap to lock, tap the clock</li>
 <li>Per-app waiting screen: configurable delay, daily open and minute limits, growing delay past the limit, your own message</li>
 <li>Real usage per app with Usage Access (optional)</li>
-<li>Hide and rename apps, optional search (off by default), light/dark theme</li>
+<li>Hide and rename apps, optional search (off by default), grayscale icons, light/dark theme</li>
 <li>No internet permission, no tracking</li>
 </ul>
 <p><b>Permissions</b></p>

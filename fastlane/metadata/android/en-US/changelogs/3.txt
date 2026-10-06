@@ -1,0 +1,2 @@
+- Grayscale icons option (Settings → Appearance)
+- Dock now supports 1 to 5 slots

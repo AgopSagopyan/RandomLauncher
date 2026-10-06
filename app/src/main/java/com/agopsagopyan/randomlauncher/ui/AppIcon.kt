@@ -14,6 +14,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.ColorMatrix
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -28,6 +30,7 @@ fun AppIcon(
     app: AppInfo,
     label: String,
     showLabel: Boolean,
+    grayscale: Boolean,
     labelStyle: TextStyle,
     onClick: () -> Unit,
     onLongClick: () -> Unit,
@@ -41,7 +44,12 @@ fun AppIcon(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        Image(bitmap = app.icon, contentDescription = label, modifier = Modifier.size(iconSize))
+        Image(
+            bitmap = app.icon,
+            contentDescription = label,
+            colorFilter = if (grayscale) GrayscaleFilter else null,
+            modifier = Modifier.size(iconSize),
+        )
         if (showLabel) {
             Spacer(Modifier.height(6.dp))
             Text(
@@ -55,3 +63,6 @@ fun AppIcon(
         }
     }
 }
+
+/** Colourless icons make the phone less inviting; also used where app icons appear in settings. */
+val GrayscaleFilter = ColorFilter.colorMatrix(ColorMatrix().apply { setToSaturation(0f) })

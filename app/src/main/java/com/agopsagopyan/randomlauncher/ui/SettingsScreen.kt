@@ -101,6 +101,7 @@ private fun AppearancePage(vm: LauncherViewModel, state: LauncherState) {
     Page("Appearance", onBack = { vm.settingsPage = SettingsPage.Main }) {
         ChoiceRow("Theme", ThemeMode.entries, c.theme, { it.label() }) { t -> vm.setConfig { it.copy(theme = t) } }
         ToggleRow("App labels", "Off means icons only", c.showLabels) { v -> vm.setConfig { it.copy(showLabels = v) } }
+        ToggleRow("Grayscale icons", "Removes color from app icons", c.grayscaleIcons) { v -> vm.setConfig { it.copy(grayscaleIcons = v) } }
         ToggleRow("Drawer search", "An escape hatch from the shuffle", c.searchEnabled) { v -> vm.setConfig { it.copy(searchEnabled = v) } }
     }
 }

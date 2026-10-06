@@ -62,20 +62,21 @@ The shuffle is a *derangement*: every app ends up in a different cell from its p
 so the position you remember is always wrong.
 
 Apps you actually need to reach without thinking, like the phone, camera or a password
-manager, go in the **dock**. The dock has 3, 4 or 5 slots and never changes.
+manager, go in the **dock**. The dock has 1 to 5 slots and never changes.
 
 ## Features
 
 | | |
 |---|---|
 | **Shuffle on unlock** | The drawer is reshuffled after every unlock or screen-off. Every app moves. |
-| **Dock** | 3, 4 or 5 configurable slots. Pinned apps stay where they are and leave the drawer. |
+| **Dock** | 1 to 5 configurable slots. Pinned apps stay where they are and leave the drawer. |
 | **Fixed gestures** | Swipes, double-tap and clock tap always do the same thing, so the escape routes are predictable. |
 | **Wait screen** | Optional per-app pause before an app opens, with daily limits that make the pause grow. |
 | **Usage stats** | With Usage Access, shows real screen time and open counts per app for today. |
 | **Hide & rename** | Remove apps from the drawer or give them a different name. |
 | **Optional search** | Off by default, since search would defeat the shuffle. Turn it on if you need it. |
 | **Labels toggle** | Turn icon labels off for a harder, icon-only drawer. |
+| **Grayscale icons** | Strip the color from app icons to make them less inviting. |
 | **Themes** | System, light or dark. Your wallpaper shows through the home screen. |
 | **Pull to close** | When the drawer is scrolled to the top, keep pulling down to close it. |
 
